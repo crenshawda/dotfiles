@@ -26,6 +26,7 @@ $cmd_duration\
 
 # Disable the blank line at the start of the prompt
 add_newline = false
+command_timeout = 1000
 
 # You can also replace your username with a neat symbol like  to save some space
 [username]
@@ -100,8 +101,7 @@ format = '[ $symbol ($version) ]($style)'
 [nodejs]
 symbol = ""
 style = "bg:#86BBD8"
-#format = '[ $symbol ($version) ]($style)'
-format = '[ $symbol ]($style)'
+format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
